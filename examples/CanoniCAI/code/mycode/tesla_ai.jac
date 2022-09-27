@@ -33,7 +33,7 @@ walker init {
     }
 }
 walker talk {
-    has question, interactive = false;
+    has question, interactive = true;
     has wlk_ctx = {
         "intent": null,
         "entities": {},
